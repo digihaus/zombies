@@ -27,6 +27,9 @@ Hero.prototype.init = function () {
 };
 
 Hero.prototype.update = function () {
+
+  console.log("Hero: " + this.position.x + "|" + this.position.y);
+
   if (!this.dead) {
 
     var speed = 200 / m.timer.fps;
