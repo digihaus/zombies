@@ -4,12 +4,13 @@
   "description": "A game about zombies, built with monogatari engine",
   "scripts": {
     "build": "node config/build.js",
-    "live": "node config/build.js watch"
+    "live": "node config/build.js -live"
   },
   "devDependencies": {
-    "@digihaus/monogatari": "^1.0.0-alpha.1",
+    "@digihaus/monogatari": "^1.0.0-alpha.4",
     "browserify": "^14.4.0",
     "colors": "^1.1.2",
+    "fs-extra": "^4.0.1",
     "live-server": "^1.2.0",
     "watch": "^1.0.2"
   }
